@@ -1,7 +1,5 @@
 #include <iostream>
-
 using namespace std;
-
 int main() {
     int total;
     int number_of_operations;
@@ -10,7 +8,6 @@ int main() {
     cin >> number_of_operations;
 
     int number_array[number_of_operations];
-
 
     if (number_of_operations < 1 || number_of_operations > 100000){
         return 0;
@@ -25,7 +22,6 @@ int main() {
     for (int x = 0; x < number_of_operations; x++){
         cout << number_array[x] << endl;
     }
-
 
     return 0;
 }
